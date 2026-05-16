@@ -17,7 +17,7 @@ It also provides support for filtering data using query string parameters. This 
 |----    |------------------------------------             |--------------------------------
 |GET     |api/v1/manufacturers                             |List all manufacturers
 |GET     |api/v1/manufacturers/\{id\}                      |Retrieves a specific manufacturer
-|GET     |api/v1/manufacturers/vehicles/\{name\}           |Retrieves all automobiles for a specific manufacturer
+|GET     |api/v1/automobiles/vehicles/\{name (e.g honda)\}           |Retrieves all automobiles for a specific manufacturer
 |GET     |api/v1/automobiles                               |Retrieves all automobiles
 |GET     |api/v1/automobiles?make[eq]=honda&year[gt]=2014  |Retrieves all automobiles matching the query string parameters
 
